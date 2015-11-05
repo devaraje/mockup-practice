@@ -1,0 +1,98 @@
+* { box-sizing: border-box;}
+
+body {
+  width: 75%;
+  border: 2px hidden plum;
+  margin: auto;
+  background-color: black;
+}
+
+header {
+  background-color: white;
+}
+
+header h1 { 
+  color: plum;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+header nav {
+  float: left;
+  list-style: none;
+  background-color: rebeccapurple;
+  color: white;
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+header nav a {
+  padding-top: .2rem;
+  padding-left: 2.86rem;
+  padding-right: 2.86rem;
+  padding-bottom: .2rem;
+  width: 100%;
+  margin: auto;
+  border-right: 3px solid plum;
+  color: white;
+  text-decoration: none;
+}
+
+#sidebar {
+  clear: both;
+}
+
+#sidebar {
+  float: left;
+  background-color: thistle;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+  height: 29rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+#sidebar li {
+  padding-bottom: 1rem;
+  margin: auto;
+  color: white;
+}
+
+#main { 
+  background-color: gainsboro;
+  float: right;
+  width: 75%;
+  height: 29rem;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 75%;
+}
+
+#main figcaption {
+  max-width: 50%;
+  margin: auto;
+}
+
+#main img {
+  width: 25rem;
+  padding: 2rem;
+}
+
+footer { 
+  clear: both;
+  text-align: center;
+  padding: .5rem;
+  background-color: white;
+}
+
+footer img {
+  width: 48px;
+  padding: 10px;
+}

@@ -1,0 +1,61 @@
+* { box-sizing: border-box;}
+
+h2 { 
+  color: mediumpurple;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+article {
+  float: left; 
+  width: 80%;
+  height: 25rem;
+  background-color: lightyellow;
+  border-bottom-color: cornflowerblue;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 80%;
+}
+
+h3 { 
+  color: cornflowerblue;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+aside {
+  float: right; 
+  width: 20%;
+  height: 25rem;
+  background-color: lavenderblush;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  font-size: 75%;
+}
+
+#main article a {
+  text-decoration: none;
+  color: cornflowerblue;
+  padding: 2rem;
+  margin: auto;
+  font-size: 90%;
+}
+
+
+#main aside img {
+  width: 75px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  margin: auto;
+  align-content: center;
+}
+
+

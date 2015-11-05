@@ -1,0 +1,6 @@
+* { box-sizing: border-box;}
+
+#sidebar img {
+  width: 48px;
+  padding: 10px;
+}
